@@ -1,0 +1,28 @@
+﻿$color-darkblue: #5680e9;
+$color-purple: #8860d0;
+$color-grey: #C1C8E4;
+$color-lightblue: #84ceeb;
+$color-blue: #5ab9ea;
+
+$color-rgba-blue: rgba(90, 185, 234, .7);
+$color-rgba-lightblue: rgba(132, 206, 235, .8);
+$color-rgba-purple: rgba(136, 96, 208, .7);
+
+$text-heading: 'Archivo Black', sans-serif;
+$text-primary: 'Archivo', sans-serif;
+
+@mixin animate($prop) {
+    @if $prop == left {
+        animation-name: moveInLeft;
+        animation-duration: 2s;
+    }
+
+    @if $prop == right {
+        animation-name: moveInRight;
+        animation-duration: 2s;
+    }
+    @if $prop == fadeIn {
+        animation-name: fadeIn;
+        animation-duration: 2s;
+    }
+}

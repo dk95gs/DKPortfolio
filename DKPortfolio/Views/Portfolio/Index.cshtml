@@ -1,0 +1,277 @@
+﻿@{
+    ViewData["Title"] = "Welcome!";
+}
+<!--Navigation bar-->
+<div class="navigation-panel">
+    <picture>
+        <source  class="img-fluid my-nav-img" srcset="~/images/webp/pic.webp" type="image/webp">
+        <img  class="img-fluid my-nav-img" src="~/images/pic.png" alt="Alt Text!">
+    </picture>
+    <div class="my-nav">
+        <a class="mybtn mybtn-white" href="#">Home</a>
+        <a class="mybtn mybtn-white" href="#projects">Projects</a>
+        <a class="mybtn mybtn-white" href="#skills">Skills</a>
+        <a class="mybtn mybtn-white" href="#education">Education</a>
+        <a class="mybtn mybtn-white" href="#contact">Contact</a>
+    </div>
+</div>
+<!----------------------------------------- Main Content -------------------------------------------------->
+<div class="my-container">
+    <!------------------------------------- Header -------------------------------------------------->
+    <div class="header">
+        <div class="header-content">
+            <h1>Dilshan Karunanayaka</h1>
+            <h2 class="subheading">COMPUTER PROGRAMMER/ANALYST STUDENT & ASPIRING WEB DEVELOPER</h2>
+            <div class="header-content-body">
+                <p>
+                    I am a highly focused and enthusiastic student at Conestoga College; attending my third year in the Computer Programmer/Analyst program.
+                    Currently maintaining a GPA of 3.72
+                </p>
+                <p>
+                    I am currently in my final year at school and am looking for an internship position as a software or web developer in order to gain some
+                    experience and to really get a feel of what the industry is like.
+                </p>
+            </div>
+        </div>
+    </div>
+    <br />
+    <!------------------------------------- Projects section -------------------------------------------------->
+    <div class="projects" id="projects">
+        <div class="projects-header">
+            <h1>Projects</h1>
+        </div>
+        <div class="projects-filter">
+            <button class="mybtn mybtn-white" id="allprojs">All</button>
+            <button class="mybtn mybtn-white" id="webdev">Web Development</button>
+            <button class="mybtn mybtn-white" id="appdev">App Development</button>
+            <button class="mybtn mybtn-white" id="other">Other</button>
+        </div>
+        <div class="projects-body">
+            <input hidden type="checkbox" name="webdevcheck" class="webdevcheck" id="webdevcheck" value="" />
+            <input hidden type="checkbox" name="appdevcheck" class="appdevcheck" id="appdevcheck" value="" />
+            <input hidden type="checkbox" name="othercheck" class="othercheck" id="othercheck" value="" />
+
+            <div class="projects-card webdev">      
+                <a href="#cvgs">
+                    <picture >
+                        <source class="projects-img" srcset="~/images/webp/cvgs-icon.webp" type="image/webp">
+                        <img class="projects-img" src="~/images/cvgs-icon.png" alt="Alt Text!">
+                    </picture>
+                </a>
+            </div>
+            <div class="projects-card appdev">
+                <a href="#mealmanager"><img class="projects-img" src="~/images/meal-icon.png" alt="Alternate Text" /></a>
+            </div>
+            <div class="projects-card webdev">
+                <a href="#lara"><img class="projects-img" src="~/images/spoon-icon.png" alt="Alternate Text" /></a>
+            </div>
+            <div class="projects-card other">
+                <a href="#galactic">
+                    <picture>
+                        <source class="projects-img" srcset="~/images/webp/galactic.webp" type="image/webp">
+                        <img class="projects-img" src="~/images/galactic.png" alt="Alt Text!">
+                    </picture>
+                </a>
+            </div>
+        </div>
+        <!---------------------------------------------- Popup models for project cards-------------------------------------->
+        <div class="popup" id="mealmanager">
+            <div class="popup-content">
+                <a href="#projects" class="popup-close">&times;</a>
+                <div class="popup-content-left">
+                    <picture>
+                        <source style="height:100%;top:0;" class="popup-content-img" srcset="~/images/webp/mealManager.webp" type="image/webp">
+                        <img style="height:100%;top:0;" class="popup-content-img"  src="~/images/mealManager.png" alt="Alt Text!">
+                    </picture>
+                    <img src="" alt="Alternate Text" />
+
+                </div>
+                <div class="popup-content-right">
+                    <div class="popup-content-right-content">
+                        <h1>MEAL MANAGER - PHONEGAP APP</h1>
+
+                        <a class="linktext" href="https://github.com/dk95gs/PhoneGap-App---Meal-Manager">Click Here to View Project Soruce Code on Github</a>
+                        <p>
+                            This app allows users to enter and record recipes that they have created as well as maintain and create a shopping list based on the ingredients of any given recipe.
+                        </p>
+                        <p>
+                            Also allows users to share their created recipes with the world; all shared recipes get stored within a database hosted by Microsoft Azure (Which is now out of service). 
+                        </p>
+                        <p>Communication between the app and the database happens by Ajaxing a WebApp I have hosted by Azure that contains PhP files that deal with any DAL operations</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="lara">
+            <div class="popup-content">
+                <a href="#projects" class="popup-close">&times;</a>
+                <div class="popup-content-left">
+                    <picture>
+                        <source class="popup-content-img" srcset="~/images/webp/spoon.webp" type="image/webp">
+                        <img class="popup-content-img" src="~/images/spoon.jpg" alt="Alt Text!">
+                    </picture>
+                </div>
+                <div class="popup-content-right">
+                    <div class="popup-content-right-content">
+                        <h1>LARAVEL & VUE.JS WEB APP USING THE SPOONACULAR API</h1>
+
+                        <a class="linktext" href="https://github.com/dk95gs/PhoneGap-App---Meal-Manager">Click Here to View Project Soruce Code on Github</a>
+                        <p>
+                            I created this project while learning how to create my own API using Laravel.
+                            This project also allowed me to get some more exprience working with Restful APIs. 
+                        </p>
+                        <p>
+                            The first part of the site allows users to register and loging, once they have done so
+                            they are allowed to add a message to the message board.
+                        </p>
+                        <p>
+                            The second part of the site allows users to search for an cooking ingredient to find out its nutritional facts; a list of related recipes will also be displayed.
+                        </p>
+                        <a class="linktext" href="http://frozen-lake-75036.herokuapp.com/#/">Link to the site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="galactic">
+            <div class="popup-content">
+                <a href="#projects" class="popup-close">&times;</a>
+                <div class="popup-content-left" id="galactic-vid">
+
+                </div>
+                <div class="popup-content-right">
+                    <div class="popup-content-right-content">
+                        <h1>MONOGAME PROJECT - GALACTIC INVADER</h1>
+
+                        <a class="linktext" href="https://github.com/dk95gs/MonoGame-SpaceShooter">Click Here to View Project Soruce Code on Github</a>
+                        <p>
+                            This is a video game made with MonoGame in Visual Studio 2017 as a final project for my Object-Oriented Game Programming class. The game itself is a 2D side scrolling spaceship shooter game featuring 4 different enemy types, an asteroid, a boss level and power ups with sound effects and music.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup" id="cvgs">
+            <div class="popup-content">
+                <a href="#projects" class="popup-close">&times;</a>
+                <div style="width:50%"  class="popup-content-left" id="cvgs-vid">
+
+                </div>
+                <div style="width:50%"  class="popup-content-right">
+                    <div class="popup-content-right-content">
+                        <h1>Conestoga Virtual Game Store</h1>
+
+                        <a class="linktext" href="https://github.com/dk95gs/CVGS">Click Here to View Project Soruce Code on Github</a>
+                        <p>
+                            This is a web Application with a customer and employee portal. Allows employees to add games to the store, create events and approve reviews & shipment.
+                        </p>
+                        <p>
+                            Members can view the store, friend other members, add games to their wish list, review games, rate games, and add games to their cart.
+                        </p>
+                        <a class="linktext" href="http://dk95gs-001-site1.itempurl.com/">Link to the site</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------------- Skills Section -------------------------------------------------->
+    <div class="skills" id="skills">
+        <div class="skills-header">
+            <h1>Skills</h1>
+        </div>
+        <div class="skills-body">
+            <div class="skills-card">
+                <img src="~/images/skills/csharp.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                 <img src="~/images/skills/net.jpg" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/html.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/css.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/js.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/node.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/sql.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/agile.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/android.jpg" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/vue.png"  style="border-radius:0; box-shadow:none" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/jquery.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+            <div class="skills-card">
+                <img src="~/images/skills/java.png" class="skills-card-img" alt="Alternate Text" />
+            </div>
+        </div>
+    </div>
+    <!------------------------------------- Education Section -------------------------------------------------->
+    <div class="education" id="education">
+        <div class="education-header">
+            <h1>Education</h1>
+        </div>
+        
+        <div class="education-body">
+            <div class="timeline">
+                <div class="time-container left">
+                    <div class="content">
+                        <h4>2009-2013</h4>
+                        <h5>Centennial Collegiate Vocational Institute</h5>
+                        <h6>GED</h6>
+                        <p>Centennial Collegiate Vocational Institute is a secondary high school located in Ward Five of Guelph, Ontario, Canada. Centennial offers many programs at their facilities, including: Science, Math, English, French, Latin, and Japanese.</p>
+                    </div>
+                </div>
+                <div class="time-container right">
+                    <div class="content">
+                        <h4>2017 - Present</h4>
+                        <h5>Conestoga College</h5>
+                        <h6>3 Year Advanced Disploma, Computer Programming/Analyst</h6>
+                        <p>The program emphasises problem-solving skills using the latest versions of Microsoft, Oracle, Java, and open-source software to develop enterprise, internet and mobile applications. Throughout the program, Object-Oriented analysis, design, agile methodologies and programming techniques are used.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+    <!------------------------------------- Contact Section -------------------------------------------------->
+    <div class="contact" id="contact">
+        <h1 class="contact-header">Contact Information</h1>
+
+        <div class="contact-container">
+            <div class="contact-container-bigbox">
+                
+                <img class="contact-container-bigbox-img" src="~/images/github.png" alt="Alternate Text" />
+                <a href="https://github.com/dk95gs?tab=repositories"><h5>GitHub</h5></a>
+
+            </div>
+            <div  class="contact-container-littlebox">
+                <img class="contact-container-littlebox-img" src="~/images/email.png" alt="Alternate Text" />
+                <a href="mailto:dk95gs@gmail.com"><h5 style="display:block">dk95gs@gmail.com</h5></a>
+            </div>
+            <div class="contact-container-bigbox">
+                
+                <img class="contact-container-bigbox-img" src="~/images/linkedin.png" alt="Alternate Text" />
+                <a href="https://linkedin.com/in/dkarunanayaka"><h5>LinkedIn</h5></a>
+               
+            </div>
+            <div class="contact-container-littlebox">
+                <img class="contact-container-littlebox-img" src="~/images/phone.png" alt="Alternate Text" />
+                <h5 style="display:block">226 868 0179</h5>
+            </div>
+        </div>
+    </div>
+    <br />
+</div>
