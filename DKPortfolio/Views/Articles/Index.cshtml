@@ -18,11 +18,12 @@
 </div>
 <section>
     <div class="my-container" style="text-align:center">
-        <a style="all:unset">
+
+        @*<a style="all:unset">
             <div class="article">
                 <h1 class="article-title">Coming Soon...</h1>
+                <span>02/02/1995</span>
                 <p>
-               
                     Lorem ipsum dolor sit amet, no mei quot illud altera. Nostro option tractatos
                     ut pri, vel dolorem volutpat pertinacia ne. Id cum vide affert sapientem. Voluptatum
                     scripserit eos an, cu nec timeam pertinacia, te interesset comprehensam definitionem vim. Id usu volumus epicurei
@@ -30,7 +31,19 @@
                     mnesarchum id.
                 </p>
             </div>
+        </a>*@
+        @foreach (var item in Model)
+        {
+        <a asp-controller="Articles" asp-action="Details" asp-route-Id="@item.Id" style="all:unset">
+            <div class="article">
+                <h1 class="article-title">@item.Title</h1>
+                <span>@item.PublishDate</span>
+                <p>
+                    @item.Description
+                </p>
+            </div>
         </a>
+        }
     </div>
 </section>
 

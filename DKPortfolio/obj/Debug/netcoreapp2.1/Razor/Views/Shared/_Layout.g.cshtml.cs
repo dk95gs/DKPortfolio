@@ -67,7 +67,7 @@ using DKPortfolio.Models;
             WriteLiteral("<!DOCTYPE html>\n<html>\n");
             EndContext();
             BeginContext(23, 12153, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6f38b615e52f4aafb3e646086d166d25", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f8222c1ca2694774a50c43915cf00a1f", async() => {
                 BeginContext(29, 493, true);
                 WriteLiteral(@"
     <title>Dilshan Karunanayaka - Freelance Web Developer Portfolio</title>
@@ -83,7 +83,7 @@ using DKPortfolio.Models;
                 WriteLiteral("@import url(\'https://fonts.googleapis.com/css?family=Archivo\');\n    </style>\n    ");
                 EndContext();
                 BeginContext(604, 42, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "fd4b87f6b0b64ad4babc1a0d499e4cbc", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "bd275c7e247d4491b5e1958f35463f25", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -102,12 +102,12 @@ using DKPortfolio.Models;
                 WriteLiteral("\n    ");
                 EndContext();
                 BeginContext(651, 175, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d46ce029fa846dd801f1a49925e57c3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a433b2db165b4566b8ca7d5b309a2d8a", async() => {
                     BeginContext(686, 12, true);
                     WriteLiteral("   \n        ");
                     EndContext();
                     BeginContext(698, 50, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "bcaa85ea5e2c4d7babce38513cb457b1", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ba5e4f38b2c0430b98e17110a5cd97c8", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -126,7 +126,7 @@ using DKPortfolio.Models;
                     WriteLiteral("\n        ");
                     EndContext();
                     BeginContext(757, 50, false);
-                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "079c0915b61d43cbb9a657bf201c3369", async() => {
+                    __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "ea9dc2a804404aaeaf92c06ab70b1966", async() => {
                     }
                     );
                     __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -162,7 +162,7 @@ using DKPortfolio.Models;
                 WriteLiteral("\n    ");
                 EndContext();
                 BeginContext(831, 11337, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cef0e2fa00ca4f07a39517a4de98e073", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "43b1544926db4749bd3f0eb7ef2b019f", async() => {
                     BeginContext(866, 5486, true);
                     WriteLiteral(@"
         <style>
@@ -260,7 +260,7 @@ using DKPortfolio.Models;
             WriteLiteral("\n");
             EndContext();
             BeginContext(12177, 2802, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d9f8f4f87c14fe694b168856edd47b6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "372975136ef6400697464148deb220a0", async() => {
                 BeginContext(12183, 496, true);
                 WriteLiteral(@"
     <div>
@@ -276,7 +276,7 @@ using DKPortfolio.Models;
                 <li class=""navigation-item"">");
                 EndContext();
                 BeginContext(12679, 80, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "51e3c4d02c1041778f181299bed644ad", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b1549051e278463da5c3e60522144518", async() => {
                     BeginContext(12751, 4, true);
                     WriteLiteral("Blog");
                     EndContext();

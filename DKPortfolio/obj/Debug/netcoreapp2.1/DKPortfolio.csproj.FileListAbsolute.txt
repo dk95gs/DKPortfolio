@@ -63,3 +63,4 @@ C:\Users\dk95g\Desktop\Projects\DKPortfolio\DKPortfolio\obj\Debug\netcoreapp2.1\
 C:\Users\dk95g\Desktop\Projects\DKPortfolio\DKPortfolio\obj\Debug\netcoreapp2.1\Razor\Views\Portfolio\Index.g.cshtml.cs
 C:\Users\dk95g\Desktop\DKPortfolio\DKPortfolio\obj\Debug\netcoreapp2.1\Razor\Views\Portfolio\Index.g.cshtml.cs
 C:\Users\dk95g\Desktop\DKPortfolio\DKPortfolio\obj\Debug\netcoreapp2.1\Razor\Views\Articles\Index.g.cshtml.cs
+C:\Users\dk95g\Desktop\DKPortfolio\DKPortfolio\obj\Debug\netcoreapp2.1\Razor\Views\Articles\Details.g.cshtml.cs

@@ -20,5 +20,11 @@ namespace DKPortfolio.Controllers
             var articles = _db.Articles.ToList();
             return View(articles);
         }
+        public async Task<IActionResult> Details(int Id)
+        {
+            var rec = await _db.Articles.FindAsync(Id);
+
+            return View(rec);
+        }
     }
 }
