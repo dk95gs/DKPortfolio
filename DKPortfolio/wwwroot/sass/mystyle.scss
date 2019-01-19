@@ -760,8 +760,28 @@ h6, .h6 {
     }
 }
 .main-content {
-    width:75%;
+    width: 95%;
     margin: 3rem auto 3rem auto;
+    box-shadow: inset 0 0 10px #000000;
+    background-image: linear-gradient(to right bottom,$color-lightblue, $color-purple);
+    padding: 1rem 3rem 0 3rem;
+    & h1 {
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    & h4 {
+        padding-top: 1rem;
+        padding-bottom: .5rem;
+    }
+
+    & p {
+        letter-spacing: 1px;
+        line-height: 1.6;
+        font-size: 1.1rem;
+        font-family: Arial;
+        padding-bottom: 1.5rem;
+    }
 }
 .clearstyle {
     all:unset;

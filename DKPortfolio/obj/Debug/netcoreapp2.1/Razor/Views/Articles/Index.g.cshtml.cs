@@ -72,7 +72,7 @@ using DKPortfolio.Models;
             WriteLiteral("<!--Navigation bar-->\r\n<div class=\"navigation-panel\">\r\n    <picture>\r\n        ");
             EndContext();
             BeginContext(217, 87, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "78ddaace85094b9a97dae71fa1300a0d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("source", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8f5d0721c57b41eda2be29ca3ea3e56e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -92,7 +92,7 @@ using DKPortfolio.Models;
             WriteLiteral("\r\n        ");
             EndContext();
             BeginContext(314, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "7fffe3204081412fb542ed065070cd20", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3f87b62d252049d3b85fe3744993538e", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -132,7 +132,7 @@ using DKPortfolio.Models;
             WriteLiteral("        ");
             EndContext();
             BeginContext(1518, 351, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c8bf24a5feff441ab5524e982ee2cb5d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1db19fc2152342d78d991c33f8dd0e75", async() => {
                 BeginContext(1610, 79, true);
                 WriteLiteral("\r\n            <div class=\"article\">\r\n                <h1 class=\"article-title\">");
                 EndContext();
